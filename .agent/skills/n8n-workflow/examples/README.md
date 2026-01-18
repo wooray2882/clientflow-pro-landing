@@ -42,6 +42,16 @@ Use descriptive names:
 - [ ] Scheduled task workflow (.json)
 - [ ] Error handling pattern (.json)
 
+### Workflow Template Library
+- [x] `../data/workflow-templates.csv` - **300+ curated workflow templates** with:
+  - Workflow names and descriptions
+  - Creator information (Nate Herk, Nick Saraev, Rory Ridgers, etc.)
+  - YouTube tutorial links
+  - Google Drive template download URLs
+  - Categories: Lead Gen, Voice AI, Content, RAG, Multi-Agent, etc.
+
+  See [workflow-library.md](../workflow-library.md) for how to search and use.
+
 ---
 
 ## Describing Your Examples

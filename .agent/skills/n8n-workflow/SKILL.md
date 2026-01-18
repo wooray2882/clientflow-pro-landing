@@ -16,6 +16,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 | File | Status | When to Read |
 |------|--------|--------------|
 | [n8n-design-standards.md](n8n-design-standards.md) | 🔴 **REQUIRED** | ALWAYS read when building n8n workflows! |
+| [workflow-library.md](workflow-library.md) | 🟡 **IMPORTANT** | Search for existing templates BEFORE building |
 | [modular-workflow-architecture.md](modular-workflow-architecture.md) | 🟡 **IMPORTANT** | When building systems with multiple workflows |
 | [visual-patterns.md](visual-patterns.md) | Optional | UI/dashboard preferences |
 | [architecture-preferences.md](architecture-preferences.md) | Optional | System design & structure |
@@ -23,6 +24,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 | [workflow-patterns.md](workflow-patterns.md) | Optional | Task organization & flow |
 
 > 🔴 **n8n-design-standards.md = ALWAYS READ when creating n8n workflows.**
+> 🟡 **workflow-library.md = SEARCH for existing templates before building from scratch.**
 > 🟡 **modular-workflow-architecture.md = READ when building multi-workflow systems.**
 
 ---
@@ -107,11 +109,16 @@ See the `examples/` folder for visual references:
 ## Reference Files
 
 - [n8n-design-standards.md](n8n-design-standards.md) - 🔴 Sticky note grouping, node naming, visual layout rules
+- [workflow-library.md](workflow-library.md) - 🟡 300+ workflow templates library (search before building!)
 - [modular-workflow-architecture.md](modular-workflow-architecture.md) - 🟡 Main workflow → sub-workflow patterns
 - [visual-patterns.md](visual-patterns.md) - Sticky notes, layouts, UI preferences
 - [architecture-preferences.md](architecture-preferences.md) - System structure, folder organization
 - [tool-preferences.md](tool-preferences.md) - Preferred tools and technologies
 - [workflow-patterns.md](workflow-patterns.md) - Task flow and automation patterns
+
+## Data Files
+
+- [data/workflow-templates.csv](data/workflow-templates.csv) - Searchable CSV of 300+ workflow templates with URLs
 
 ---
 
